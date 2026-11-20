@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="CCTV-1 综合" group-title="央视频道",CCTV-1 综合
-http://222.223.41.27:8888/hls/1/index.m3u8
+https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 http://php.jdshipin.com/TVOD/iptv.php?id=rthk33
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
 #EXTINF:-1 tvg-name="CCTV-2 财经" group-title="央视频道",CCTV-2 财经
@@ -10,7 +10,7 @@ http://222.223.41.27:8888/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-3 综艺" group-title="央视频道",CCTV-3 综艺
 http://121.57.88.206:898/hls/3/index.m3u8
 http://222.223.41.27:8888/hls/3/index.m3u8
-http://119.39.9.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
+http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4 中文国际" group-title="央视频道",CCTV-4 中文国际
 http://222.223.41.27:8888/hls/4/index.m3u8
 http://219.147.245.238:25480/newlive/live/hls/4/live.m3u8
@@ -21,24 +21,24 @@ http://221.226.51.220:50081/newlive/live/hls/5/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/6/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-6 电影" group-title="央视频道",CCTV-6 电影
 http://222.223.41.27:8888/hls/6/index.m3u8
+http://221.7.175.154:8445/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-7 国防军事" group-title="央视频道",CCTV-7 国防军事
-http://219.147.245.238:25480/newlive/live/hls/8/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/8/live.m3u8
-http://183.129.255.66:8480/hls/8/index.m3u8
+http://219.147.245.238:25480/newlive/live/hls/8/live.m3u8
+http://222.223.41.27:8888/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-8 电视剧" group-title="央视频道",CCTV-8 电视剧
 http://222.223.41.27:8888/hls/8/index.m3u8
-http://221.7.175.154:8445/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-9 纪录" group-title="央视频道",CCTV-9 纪录
 http://120.40.39.246:352/newlive/live/hls/10/live.m3u8
 http://222.223.41.27:8888/hls/9/index.m3u8
 http://119.39.9.8:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-10 科教" group-title="央视频道",CCTV-10 科教
 http://222.223.41.27:8888/hls/10/index.m3u8
-http://123.160.173.129:85/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+http://59.39.89.130:60901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-11 戏曲" group-title="央视频道",CCTV-11 戏曲
-http://120.40.39.246:352/newlive/live/hls/12/live.m3u8
-http://183.129.255.66:8480/hls/12/index.m3u8
 http://222.223.41.27:8888/hls/11/index.m3u8
+http://120.40.39.246:352/newlive/live/hls/12/live.m3u8
+http://219.147.245.238:25480/newlive/live/hls/12/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-12 社会与法" group-title="央视频道",CCTV-12 社会与法
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-13 新闻" group-title="央视频道",CCTV-13 新闻
@@ -46,19 +46,21 @@ https://10.fast.hidns.vip/163189/cctv13/
 https://event.pull.hebtv.com/jishi/cp1.m3u8
 http://118.122.144.115:8888/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-14 少儿" group-title="央视频道",CCTV-14 少儿
+http://222.223.41.27:8888/hls/14/index.m3u8
 https://event.pull.hebtv.com/jishi/cp2.m3u8
 http://120.40.39.246:352/newlive/live/hls/15/live.m3u8
-http://219.147.245.238:25480/newlive/live/hls/15/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-15 音乐" group-title="央视频道",CCTV-15 音乐
-http://222.223.41.27:8888/hls/15/index.m3u8
+http://120.40.39.246:352/newlive/live/hls/16/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/16/live.m3u8
-http://219.147.245.238:25480/newlive/live/hls/16/live.m3u8
+http://222.223.41.27:8888/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-16 奥林匹克" group-title="央视频道",CCTV-16 奥林匹克
 http://219.147.245.238:25480/newlive/live/hls/17/live.m3u8
 https://epg.pw/stream/c1beb2abcba5aef09c2f58efc3ca84b76de2c7b9cf60762b0d79772d9e70d454.m3u8
 https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8
 #EXTINF:-1 tvg-name="CCTV-17 农业农村" group-title="央视频道",CCTV-17 农业农村
-http://221.7.175.154:8445/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+http://1.24.39.180:9003/hls/61/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事" group-title="央视频道",CCTV-5+ 体育赛事
+http://59.39.89.130:60901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-5+ 体育" group-title="央视频道",CCTV-5+ 体育
 http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
 http://61.136.172.236:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
