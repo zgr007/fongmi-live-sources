@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T23:50:12Z",
+  "generated_at_utc": "2026-11-21T22:50:23Z",
   "config": {
     "candidates": "/tmp/live-candidates",
     "limit": 0,
@@ -14,7 +14,7 @@
     "channels": 18,
     "urls": 216,
     "checked": 216,
-    "passed": 19,
+    "passed": 37,
     "fallback": 18
   },
   "channels": {
@@ -23,29 +23,55 @@
       "selected": [
         {
           "channel": "cctv1",
-          "url": "http://php.jdshipin.com/TVOD/iptv.php?id=rthk33",
+          "url": "http://222.223.41.27:8888/hls/1/index.m3u8",
           "score": 100,
           "decode_errors": 0,
           "resolution": "1920x1080",
-          "bitrate_kbps": 4208.0,
+          "bitrate_kbps": 8538.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
-              97.5,
-              83.5,
-              88.6
+              160.5,
+              164.8,
+              176.0
             ],
-            "lum_mean": 88.3,
-            "lum_std": 61.4,
-            "quant_colors": 411,
+            "lum_mean": 164.8,
+            "lum_std": 49.5,
+            "quant_colors": 253,
             "flag": "ok"
           },
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:32:10Z",
-          "elapsed_sec": 6.01
+          "checked_at_utc": "2026-11-21T22:39:19Z",
+          "elapsed_sec": 24.63
+        },
+        {
+          "channel": "cctv1",
+          "url": "http://222.240.44.42:12810/newlive/live/hls/1/live.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 9050.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              72.5,
+              78.6,
+              93.8
+            ],
+            "lum_mean": 78.5,
+            "lum_std": 55.2,
+            "quant_colors": 361,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:39:19Z",
+          "elapsed_sec": 42.18
         },
         {
           "channel": "cctv1",
@@ -53,25 +79,25 @@
           "score": 100,
           "decode_errors": 0,
           "resolution": "1920x1080",
-          "bitrate_kbps": 4208.0,
+          "bitrate_kbps": 4195.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
-              97.5,
-              83.5,
-              88.6
+              90.3,
+              93.6,
+              112.0
             ],
-            "lum_mean": 88.3,
-            "lum_std": 61.4,
-            "quant_colors": 411,
+            "lum_mean": 94.7,
+            "lum_std": 43.6,
+            "quant_colors": 406,
             "flag": "ok"
           },
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:32:09Z",
-          "elapsed_sec": 7.3
+          "checked_at_utc": "2026-11-21T22:39:44Z",
+          "elapsed_sec": 4.9
         }
       ],
       "fallback": [
@@ -83,6 +109,24 @@
         }
       ],
       "eliminated": [
+        {
+          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://198.204.228.26/live/cctv1hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/cctv1hd.m3u8?auth=test20251009",
           "score": 0,
@@ -96,46 +140,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
+          "url": "http://221.7.175.154:8445/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 35,
+          "error": "seg1:HTTP 404",
           "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://198.204.240.250:82/live/cctv1.m3u8",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://204.12.221.218:8181/3m1080p/cctv1.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv1.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.212.130:8181/1080p/cctv1.m3u8",
-          "score": 0,
-          "error": "seg0:too_small(172)",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.181:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8",
@@ -148,6 +156,32 @@
     "cctv2": {
       "display": "CCTV-2 财经",
       "selected": [
+        {
+          "channel": "cctv2",
+          "url": "http://222.223.41.27:8888/hls/2/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8483.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              80.1,
+              118.7,
+              129.1
+            ],
+            "lum_mean": 108.3,
+            "lum_std": 56.6,
+            "quant_colors": 308,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:39:49Z",
+          "elapsed_sec": 12.77
+        },
         {
           "channel": "cctv2",
           "url": "https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8",
@@ -171,34 +205,34 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:32:18Z",
-          "elapsed_sec": 16.87
+          "checked_at_utc": "2026-11-21T22:39:46Z",
+          "elapsed_sec": 19.9
         },
         {
           "channel": "cctv2",
-          "url": "https://epg.pw/stream/f86540c126a751cc707e3805911549bd077fb5a7f0f53a824212d75addea3747.m3u8",
-          "score": 95,
+          "url": "http://119.39.9.8:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "score": 83,
           "decode_errors": 0,
-          "resolution": "1920x1080",
-          "bitrate_kbps": 9049.0,
-          "segments_ok": 1,
+          "resolution": "720x576",
+          "bitrate_kbps": 2697.0,
+          "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
-              147.5,
-              134.1,
-              131.9
+              78.3,
+              116.6,
+              129.5
             ],
-            "lum_mean": 137.8,
-            "lum_std": 65.3,
-            "quant_colors": 319,
+            "lum_mean": 106.6,
+            "lum_std": 53.1,
+            "quant_colors": 296,
             "flag": "ok"
           },
           "frame": null,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead",
-          "checked_at_utc": "2026-11-20T23:32:37Z",
-          "elapsed_sec": 32.18
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:40:06Z",
+          "elapsed_sec": 11.58
         }
       ],
       "fallback": [
@@ -211,7 +245,31 @@
       ],
       "eliminated": [
         {
+          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
           "url": "http://74.91.26.218:82/live/cctv2hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://173.208.212.130:8181/1080p/cctv2.m3u8",
+          "score": 0,
+          "error": "seg0:too_small(173)",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://198.204.228.26/live/cctv2hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://173.208.234.146/live/cctv2.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
@@ -229,42 +287,6 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv2hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://69.30.245.50/live/cctv2.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://204.12.221.218:8181/3m1080p/cctv2.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://107.150.60.122/live/cctv2hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://198.204.228.26/live/cctv2hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.212.130:8181/1080p/cctv2.m3u8",
-          "score": 0,
-          "error": "seg0:too_small(196)",
-          "error_kind": "dead"
-        },
-        {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8",
           "score": 0,
           "error": "connection",
@@ -274,7 +296,86 @@
     },
     "cctv3": {
       "display": "CCTV-3 综艺",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv3",
+          "url": "http://222.223.41.27:8888/hls/3/index.m3u8",
+          "score": 95,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8414.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              131.7,
+              97.9,
+              84.0
+            ],
+            "lum_mean": 106.4,
+            "lum_std": 39.4,
+            "quant_colors": 230,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:40:18Z",
+          "elapsed_sec": 6.75
+        },
+        {
+          "channel": "cctv3",
+          "url": "http://119.39.9.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "score": 83,
+          "decode_errors": 0,
+          "resolution": "720x576",
+          "bitrate_kbps": 2525.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              105.7,
+              87.7,
+              81.4
+            ],
+            "lum_mean": 92.4,
+            "lum_std": 54.0,
+            "quant_colors": 355,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:40:26Z",
+          "elapsed_sec": 11.84
+        },
+        {
+          "channel": "cctv3",
+          "url": "http://59.39.89.130:60901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 47,
+          "decode_errors": 7,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8493.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              116.5,
+              84.8,
+              77.8
+            ],
+            "lum_mean": 93.5,
+            "lum_std": 55.9,
+            "quant_colors": 306,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg1:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:40:13Z",
+          "elapsed_sec": 22.04
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv3_1/index.m3u8",
@@ -291,6 +392,24 @@
           "error_kind": "dead"
         },
         {
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://173.208.234.146/live/cctv3.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://153.0.171.163:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 36,
+          "error": null,
+          "error_kind": null
+        },
+        {
           "url": "http://38.75.136.137:98/gslb/dsdqca/cctv3hd.m3u8?auth=test20251009",
           "score": 0,
           "error": "NOT_M3U8",
@@ -300,12 +419,6 @@
           "url": "http://38.75.136.137:98/gslb/dsdqca/scwshd.m3u8?auth=test20251009",
           "score": 0,
           "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
           "error_kind": "dead"
         },
         {
@@ -321,36 +434,6 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://69.30.245.50/live/cctv3.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://107.150.60.122/live/cctv3hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv3.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://198.204.228.26/live/cctv3hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.181:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
-        },
-        {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8",
           "score": 0,
           "error": "connection",
@@ -360,7 +443,60 @@
     },
     "cctv4": {
       "display": "CCTV-4 中文国际",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv4",
+          "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1795330800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-0d6e78f8ce4c06397c9fa8890069b337&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
+          "score": 96,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 3408.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              102.4,
+              87.8,
+              84.0
+            ],
+            "lum_mean": 91.7,
+            "lum_std": 51.5,
+            "quant_colors": 239,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:40:36Z",
+          "elapsed_sec": 2.32
+        },
+        {
+          "channel": "cctv4",
+          "url": "http://119.39.9.8:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "score": 83,
+          "decode_errors": 0,
+          "resolution": "720x576",
+          "bitrate_kbps": 2732.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              119.1,
+              144.2,
+              156.4
+            ],
+            "lum_mean": 138.1,
+            "lum_std": 38.1,
+            "quant_colors": 161,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:40:38Z",
+          "elapsed_sec": 13.15
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv4_1/index.m3u8",
@@ -370,6 +506,24 @@
         }
       ],
       "eliminated": [
+        {
+          "url": "http://173.208.234.146/live/cctv4.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://104.152.209.49:8181/720p/cctv4.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://124.90.45.52:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
+        },
         {
           "url": "http://36.136.38.87:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0",
           "score": 23,
@@ -407,46 +561,69 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv4hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://192.151.150.154/live/cctv4k.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://74.91.26.218:82/live/cctv4hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://69.30.245.50/live/cctv4.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8",
           "score": 0,
           "error": "connection",
-          "error_kind": "transient"
-        },
-        {
-          "url": "http://primestreams.tv:826/live/1ARbE2L7ak/ezfQtdrB3J/119452.ts",
-          "score": 0,
-          "error": "timeout",
           "error_kind": "transient"
         }
       ]
     },
     "cctv5": {
       "display": "CCTV-5 体育",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv5",
+          "url": "http://1.24.39.180:9003/hls/5/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 7975.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              65.5,
+              79.3,
+              95.1
+            ],
+            "lum_mean": 77.0,
+            "lum_std": 52.4,
+            "quant_colors": 291,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:40:44Z",
+          "elapsed_sec": 11.16
+        },
+        {
+          "channel": "cctv5",
+          "url": "http://221.7.175.154:8445/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 72,
+          "decode_errors": 2,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8223.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              108.1,
+              97.1,
+              97.0
+            ],
+            "lum_mean": 100.4,
+            "lum_std": 26.3,
+            "quant_colors": 188,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:40:51Z",
+          "elapsed_sec": 29.09
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv5_1/index.m3u8",
@@ -456,6 +633,12 @@
         }
       ],
       "eliminated": [
+        {
+          "url": "http://173.208.234.146/live/cctv5.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/jlwshd.m3u8?auth=test20251009",
           "score": 0,
@@ -499,28 +682,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5hd",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv5.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
+          "url": "http://124.90.45.52:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8",
@@ -535,11 +700,37 @@
       "selected": [
         {
           "channel": "cctv6",
+          "url": "http://222.223.41.27:8888/hls/6/index.m3u8",
+          "score": 95,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8463.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              16.8,
+              25.9,
+              28.0
+            ],
+            "lum_mean": 23.4,
+            "lum_std": 25.1,
+            "quant_colors": 111,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg1:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:41:16Z",
+          "elapsed_sec": 10.81
+        },
+        {
+          "channel": "cctv6",
           "url": "https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8",
           "score": 65,
           "decode_errors": 0,
           "resolution": "?",
-          "bitrate_kbps": 159.0,
+          "bitrate_kbps": 161.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
@@ -549,8 +740,8 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:33:46Z",
-          "elapsed_sec": 1.85
+          "checked_at_utc": "2026-11-21T22:41:27Z",
+          "elapsed_sec": 1.7
         }
       ],
       "fallback": [
@@ -564,6 +755,18 @@
       "eliminated": [
         {
           "url": "http://69.30.245.50/live/cctv6.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://198.204.228.26/live/cctv6hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://104.152.209.49:8181/720p/cctv6.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
@@ -587,10 +790,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://101.66.199.181:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "url": "http://192.151.150.154/live/cctv6hd.m3u8",
           "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
         },
         {
           "url": "https://epg.pw/stream/c2a78d34141bd7ad12b19b2ab7f3f60f2b8a4c3bdd5c573889aad5bc3b331fe1.m3u8",
@@ -599,27 +802,9 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv6hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv6.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://198.204.228.26/live/cctv6hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.212.130:8181/720p/cctv6.m3u8",
-          "score": 0,
-          "error": "seg0:too_small(172)",
+          "url": "http://124.90.45.52:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 18,
+          "error": "seg1:HTTP 404",
           "error_kind": "dead"
         },
         {
@@ -632,7 +817,86 @@
     },
     "cctv7": {
       "display": "CCTV-7 国防军事",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv7",
+          "url": "http://1.24.39.180:9003/hls/7/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8996.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              133.9,
+              149.1,
+              134.9
+            ],
+            "lum_mean": 143.0,
+            "lum_std": 37.1,
+            "quant_colors": 264,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:41:30Z",
+          "elapsed_sec": 10.43
+        },
+        {
+          "channel": "cctv7",
+          "url": "http://118.122.144.115:8888/newlive/live/hls/8/live.m3u8",
+          "score": 95,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 9010.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              111.4,
+              75.4,
+              65.2
+            ],
+            "lum_mean": 85.0,
+            "lum_std": 49.8,
+            "quant_colors": 217,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:41:41Z",
+          "elapsed_sec": 16.55
+        },
+        {
+          "channel": "cctv7",
+          "url": "http://221.7.175.154:8445/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 76,
+          "decode_errors": 1,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8034.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              112.6,
+              114.3,
+              85.8
+            ],
+            "lum_mean": 110.6,
+            "lum_std": 57.2,
+            "quant_colors": 212,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:41:30Z",
+          "elapsed_sec": 29.26
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv7_1/index.m3u8",
@@ -644,6 +908,12 @@
       "eliminated": [
         {
           "url": "http://74.91.26.218:82/live/cctv7hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://192.151.150.154/live/cctv7hd.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
@@ -673,40 +943,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv7hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv7.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://107.150.60.122/live/cctv7hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://116.237.170.51:7788/673168121",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://175.24.134.198:1234/673168121",
-          "score": 0,
-          "error": "HTTP 403",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.181:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "url": "http://124.90.45.52:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8",
@@ -718,7 +958,34 @@
     },
     "cctv8": {
       "display": "CCTV-8 电视剧",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv8",
+          "url": "http://120.40.39.246:352/newlive/live/hls/9/live.m3u8",
+          "score": 95,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8615.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              111.9,
+              78.2,
+              64.6
+            ],
+            "lum_mean": 86.7,
+            "lum_std": 51.1,
+            "quant_colors": 222,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg1:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:41:58Z",
+          "elapsed_sec": 20.82
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv8_1/index.m3u8",
@@ -729,9 +996,39 @@
       ],
       "eliminated": [
         {
+          "url": "http://153.0.171.163:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 36,
+          "error": null,
+          "error_kind": null
+        },
+        {
           "url": "http://74.91.26.218:82/live/cctv8hd.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://173.208.234.146/live/cctv8.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://104.152.209.49:8181/720p/cctv8.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://173.208.212.130:8181/1080p/cctv8.m3u8",
+          "score": 0,
+          "error": "seg0:too_small(172)",
           "error_kind": "dead"
         },
         {
@@ -747,52 +1044,16 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
           "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv8k.m3u8?auth=testpub",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv8hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.212.130:8181/720p/cctv8.m3u8",
-          "score": 0,
-          "error": "seg0:too_small(194)",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://69.30.245.50/live/cctv8.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv8.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://107.150.60.122/live//cctv8hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.96:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "url": "http://124.90.45.52:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8",
@@ -807,74 +1068,81 @@
       "selected": [
         {
           "channel": "cctv9",
-          "url": "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=8d9e4d56b1405ac9b7539cf7ec81420e",
-          "score": 77,
+          "url": "http://222.223.41.27:8888/hls/9/index.m3u8",
+          "score": 100,
           "decode_errors": 0,
-          "resolution": "720x576",
-          "bitrate_kbps": 488.0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8620.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
-              52.2,
-              64.1,
-              68.7
+              106.4,
+              111.1,
+              112.2
             ],
-            "lum_mean": 61.0,
-            "lum_std": 47.0,
-            "quant_colors": 314,
+            "lum_mean": 109.8,
+            "lum_std": 46.5,
+            "quant_colors": 229,
             "flag": "ok"
           },
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:34:54Z",
-          "elapsed_sec": 3.8
+          "checked_at_utc": "2026-11-21T22:42:25Z",
+          "elapsed_sec": 30.25
         },
         {
           "channel": "cctv9",
-          "url": "https://xykt-fix.github.io/Y77.m3u8",
-          "score": 77,
+          "url": "http://119.39.9.8:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "score": 83,
           "decode_errors": 0,
           "resolution": "720x576",
-          "bitrate_kbps": 538.0,
+          "bitrate_kbps": 2740.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
-              56.5,
-              70.6,
-              75.6
+              46.2,
+              34.2,
+              33.1
             ],
-            "lum_mean": 66.9,
-            "lum_std": 46.7,
-            "quant_colors": 331,
+            "lum_mean": 37.7,
+            "lum_std": 39.2,
+            "quant_colors": 137,
             "flag": "ok"
           },
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:34:57Z",
-          "elapsed_sec": 3.51
+          "checked_at_utc": "2026-11-21T22:42:48Z",
+          "elapsed_sec": 15.07
         },
         {
           "channel": "cctv9",
-          "url": "https://piccpndali.v.myalicdn.com/audio/cctv9_2.m3u8",
-          "score": 65,
+          "url": "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=c012d32634f37806e4b0713c9773272f",
+          "score": 77,
           "decode_errors": 0,
-          "resolution": "?",
-          "bitrate_kbps": 160.0,
+          "resolution": "720x576",
+          "bitrate_kbps": 511.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
-            "flag": "unknown",
-            "detail": "no frame"
+            "mean_rgb": [
+              84.1,
+              76.4,
+              81.7
+            ],
+            "lum_mean": 79.3,
+            "lum_std": 49.7,
+            "quant_colors": 170,
+            "flag": "ok"
           },
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:35:05Z",
-          "elapsed_sec": 1.52
+          "checked_at_utc": "2026-11-21T22:42:40Z",
+          "elapsed_sec": 4.1
         }
       ],
       "fallback": [
@@ -887,10 +1155,10 @@
       ],
       "eliminated": [
         {
-          "url": "http://101.66.194.88:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "url": "http://153.0.171.163:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/cctv9hd.m3u8?auth=test20251009",
@@ -917,24 +1185,6 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv9hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv9.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.96:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
-        },
-        {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8",
           "score": 0,
           "error": "connection",
@@ -944,34 +1194,7 @@
     },
     "cctv10": {
       "display": "CCTV-10 科教",
-      "selected": [
-        {
-          "channel": "cctv10",
-          "url": "http://113.25.252.226:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
-          "score": 51,
-          "decode_errors": 3,
-          "resolution": "720x576",
-          "bitrate_kbps": 2728.0,
-          "segments_ok": 2,
-          "segments_total": 2,
-          "color": {
-            "mean_rgb": [
-              140.0,
-              120.2,
-              106.8
-            ],
-            "lum_mean": 124.6,
-            "lum_std": 44.5,
-            "quant_colors": 294,
-            "flag": "ok"
-          },
-          "frame": null,
-          "error": null,
-          "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:35:38Z",
-          "elapsed_sec": 16.34
-        }
-      ],
+      "selected": [],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv10_1/index.m3u8",
@@ -982,22 +1205,16 @@
       ],
       "eliminated": [
         {
-          "url": "http://101.66.194.29:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
-        },
-        {
           "url": "http://74.91.26.218:82/live/cctv10hd.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
         },
         {
-          "url": "http://101.66.199.96:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "url": "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/nxwshd.m3u8?auth=test20251009",
@@ -1036,10 +1253,22 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://101.66.199.181:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "url": "http://192.151.150.154/live/cctv10hd.m3u8",
           "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://121.199.48.54/live1/cctvxw.m3u8?bt=0&id=cctv10hd&usign=jCw-MkWk9oF-fhwQoml3pQ@@Referer=https://m-live.cctvnews.cctv.com/@@",
+          "score": 0,
+          "error": "NOT_M3U8",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://124.90.45.52:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8",
@@ -1051,7 +1280,60 @@
     },
     "cctv11": {
       "display": "CCTV-11 戏曲",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv11",
+          "url": "http://1.24.39.180:9003/hls/11/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8567.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              33.3,
+              36.1,
+              48.3
+            ],
+            "lum_mean": 36.6,
+            "lum_std": 36.2,
+            "quant_colors": 99,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:43:05Z",
+          "elapsed_sec": 10.56
+        },
+        {
+          "channel": "cctv11",
+          "url": "http://222.223.41.27:8888/hls/11/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8591.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              30.7,
+              33.7,
+              48.7
+            ],
+            "lum_mean": 34.6,
+            "lum_std": 38.1,
+            "quant_colors": 115,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:43:09Z",
+          "elapsed_sec": 80.9
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv11_1/index.m3u8",
@@ -1074,10 +1356,34 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://101.66.194.88:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "url": "http://173.208.234.146/live/cctv11.m3u8",
           "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://104.152.209.49:8181/720p/cctv11.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://59.39.89.130:60901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
+        },
+        {
+          "url": "http://153.0.171.163:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
+        },
+        {
+          "url": "http://124.90.45.52:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/cctv11hd.m3u8?auth=test20251009",
@@ -1086,46 +1392,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://38.75.136.137:98/gslb/dsdqca/ahwshd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqca/qhwshd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://192.151.150.154/live/cctv11hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv11.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://107.150.60.122/live/cctv11hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.96:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "url": "http://124.90.45.52:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8",
@@ -1140,81 +1410,81 @@
       "selected": [
         {
           "channel": "cctv12",
-          "url": "http://183.129.255.66:8480/hls/13/index.m3u8",
-          "score": 95,
+          "url": "http://1.24.39.180:9003/hls/12/index.m3u8",
+          "score": 100,
           "decode_errors": 0,
           "resolution": "1920x1080",
-          "bitrate_kbps": 7151.0,
-          "segments_ok": 1,
-          "segments_total": 2,
-          "color": {
-            "mean_rgb": [
-              81.8,
-              71.4,
-              65.9
-            ],
-            "lum_mean": 73.9,
-            "lum_std": 38.0,
-            "quant_colors": 129,
-            "flag": "ok"
-          },
-          "frame": null,
-          "error": "seg1:HTTP 404",
-          "error_kind": "dead",
-          "checked_at_utc": "2026-11-20T23:37:08Z",
-          "elapsed_sec": 47.24
-        },
-        {
-          "channel": "cctv12",
-          "url": "http://221.226.51.220:50081/newlive/live/hls/13/live.m3u8",
-          "score": 95,
-          "decode_errors": 0,
-          "resolution": "1920x1080",
-          "bitrate_kbps": 9007.0,
-          "segments_ok": 1,
-          "segments_total": 2,
-          "color": {
-            "mean_rgb": [
-              39.0,
-              103.6,
-              202.5
-            ],
-            "lum_mean": 95.5,
-            "lum_std": 32.0,
-            "quant_colors": 255,
-            "flag": "ok"
-          },
-          "frame": null,
-          "error": "seg1:HTTP 404",
-          "error_kind": "dead",
-          "checked_at_utc": "2026-11-20T23:37:05Z",
-          "elapsed_sec": 111.57
-        },
-        {
-          "channel": "cctv12",
-          "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
-          "score": 86,
-          "decode_errors": 0,
-          "resolution": "1280x720",
-          "bitrate_kbps": 1001.0,
+          "bitrate_kbps": 8556.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
-              95.5,
-              90.7,
-              81.4
+              156.1,
+              154.5,
+              153.8
             ],
-            "lum_mean": 91.1,
-            "lum_std": 37.9,
-            "quant_colors": 85,
+            "lum_mean": 154.9,
+            "lum_std": 18.4,
+            "quant_colors": 55,
             "flag": "ok"
           },
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:36:35Z",
-          "elapsed_sec": 2.32
+          "checked_at_utc": "2026-11-21T22:43:59Z",
+          "elapsed_sec": 10.54
+        },
+        {
+          "channel": "cctv12",
+          "url": "http://222.223.41.27:8888/hls/12/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8124.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              180.0,
+              179.0,
+              177.6
+            ],
+            "lum_mean": 179.1,
+            "lum_std": 18.7,
+            "quant_colors": 61,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:44:04Z",
+          "elapsed_sec": 17.63
+        },
+        {
+          "channel": "cctv12",
+          "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
+          "score": 83,
+          "decode_errors": 0,
+          "resolution": "1280x720",
+          "bitrate_kbps": 872.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              136.6,
+              123.5,
+              126.6
+            ],
+            "lum_mean": 127.8,
+            "lum_std": 66.1,
+            "quant_colors": 297,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:44:05Z",
+          "elapsed_sec": 2.15
         }
       ],
       "fallback": [
@@ -1226,36 +1496,6 @@
         }
       ],
       "eliminated": [
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqca/cctv12hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqca/xzwshd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://192.151.150.154/live/cctv12hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.96:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
-        },
         {
           "url": "http://173.208.234.146/live/cctv12.m3u8",
           "score": 0,
@@ -1269,13 +1509,37 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009",
           "score": 0,
-          "error": "connection",
-          "error_kind": "transient"
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
         },
         {
-          "url": "https://epg.pw/stream/aedb71e61961cd2a5a5b9a8a83b8ae489c9408e6b420593aecb92cc36de628fe.m3u8",
+          "url": "http://104.152.209.49:8181/720p/cctv12.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://153.0.171.163:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
+        },
+        {
+          "url": "http://38.75.136.137:98/gslb/dsdqca/cctv12hd.m3u8?auth=test20251009",
+          "score": 0,
+          "error": "NOT_M3U8",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://124.90.45.52:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 35,
+          "error": null,
+          "error_kind": null
+        },
+        {
+          "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8",
           "score": 0,
           "error": "connection",
           "error_kind": "transient"
@@ -1308,8 +1572,8 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:38:22Z",
-          "elapsed_sec": 12.1
+          "checked_at_utc": "2026-11-21T22:44:35Z",
+          "elapsed_sec": 19.4
         },
         {
           "channel": "cctv13",
@@ -1317,14 +1581,14 @@
           "score": 100,
           "decode_errors": 0,
           "resolution": "1920x1080",
-          "bitrate_kbps": 5486.0,
+          "bitrate_kbps": 5497.0,
           "segments_ok": 2,
           "segments_total": 2,
           "color": {
             "mean_rgb": [
               146.0,
               147.4,
-              145.3
+              145.4
             ],
             "lum_mean": 146.8,
             "lum_std": 31.0,
@@ -1334,8 +1598,8 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:37:50Z",
-          "elapsed_sec": 6.53
+          "checked_at_utc": "2026-11-21T22:44:21Z",
+          "elapsed_sec": 6.87
         },
         {
           "channel": "cctv13",
@@ -1360,8 +1624,8 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:38:30Z",
-          "elapsed_sec": 4.2
+          "checked_at_utc": "2026-11-21T22:44:41Z",
+          "elapsed_sec": 3.79
         }
       ],
       "fallback": [
@@ -1374,19 +1638,19 @@
       ],
       "eliminated": [
         {
-          "url": "http://101.66.194.88:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
-        },
-        {
           "url": "http://74.91.26.218:82/live/cctv13hd.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
         },
         {
-          "url": "http://113.25.252.226:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://153.0.171.163:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0",
           "score": 23,
           "error": null,
           "error_kind": null
@@ -1410,22 +1674,16 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8",
-          "score": 0,
-          "error": "connection",
-          "error_kind": "transient"
-        },
-        {
-          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
           "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv13hd.m3u8?auth=testpub",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
+        },
+        {
+          "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8",
+          "score": 0,
+          "error": "connection",
+          "error_kind": "transient"
         }
       ]
     },
@@ -1455,8 +1713,34 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:38:57Z",
-          "elapsed_sec": 4.93
+          "checked_at_utc": "2026-11-21T22:44:45Z",
+          "elapsed_sec": 5.4
+        },
+        {
+          "channel": "cctv14",
+          "url": "http://222.223.41.27:8888/hls/14/index.m3u8",
+          "score": 95,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8560.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              175.7,
+              213.7,
+              233.5
+            ],
+            "lum_mean": 204.6,
+            "lum_std": 24.5,
+            "quant_colors": 157,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg1:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:44:50Z",
+          "elapsed_sec": 12.06
         }
       ],
       "fallback": [
@@ -1475,10 +1759,16 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://101.66.194.88:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009",
           "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/hunwshd.m3u8?auth=test20251009",
@@ -1499,46 +1789,87 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://101.66.199.96:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
-        },
-        {
           "url": "http://192.151.150.154/live/cctv14hd.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
         },
         {
-          "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://204.12.221.218:8181/3m1080p/cctv14.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://sagrad.org:8181/3m1080p/cctv14.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
+          "url": "http://49.70.189.149:60001/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 40,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8",
           "score": 0,
           "error": "connection",
           "error_kind": "transient"
+        },
+        {
+          "url": "http://124.90.45.52:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         }
       ]
     },
     "cctv15": {
       "display": "CCTV-15 音乐",
-      "selected": [],
+      "selected": [
+        {
+          "channel": "cctv15",
+          "url": "http://222.223.41.27:8888/hls/15/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8715.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              67.1,
+              16.7,
+              29.7
+            ],
+            "lum_mean": 33.2,
+            "lum_std": 34.7,
+            "quant_colors": 181,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:45:03Z",
+          "elapsed_sec": 82.73
+        },
+        {
+          "channel": "cctv15",
+          "url": "http://119.39.9.8:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
+          "score": 83,
+          "decode_errors": 0,
+          "resolution": "720x576",
+          "bitrate_kbps": 2738.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              155.9,
+              78.0,
+              45.9
+            ],
+            "lum_mean": 97.6,
+            "lum_std": 30.0,
+            "quant_colors": 247,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:45:33Z",
+          "elapsed_sec": 12.03
+        }
+      ],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv15_1/index.m3u8",
@@ -1563,7 +1894,7 @@
         {
           "url": "http://173.208.212.130:8181/1080p/cctv15.m3u8",
           "score": 0,
-          "error": "seg0:too_small(170)",
+          "error": "seg0:too_small(172)",
           "error_kind": "dead"
         },
         {
@@ -1597,22 +1928,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://198.204.228.26/live/cctv15hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://204.12.221.218:8181/3m1080p/cctv15.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://101.66.199.181:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
-          "score": 0,
-          "error": "timeout",
-          "error_kind": "transient"
+          "url": "http://124.90.45.52:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 23,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8",
@@ -1625,6 +1944,58 @@
     "cctv16": {
       "display": "CCTV-16 奥林匹克",
       "selected": [
+        {
+          "channel": "cctv16",
+          "url": "http://183.129.255.66:8480/hls/17/index.m3u8",
+          "score": 100,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 7381.0,
+          "segments_ok": 2,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              80.8,
+              83.8,
+              84.4
+            ],
+            "lum_mean": 83.0,
+            "lum_std": 55.9,
+            "quant_colors": 120,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": null,
+          "error_kind": null,
+          "checked_at_utc": "2026-11-21T22:46:10Z",
+          "elapsed_sec": 17.48
+        },
+        {
+          "channel": "cctv16",
+          "url": "http://58.56.162.102:4466/newlive/live/hls/17/live.m3u8",
+          "score": 95,
+          "decode_errors": 0,
+          "resolution": "1920x1080",
+          "bitrate_kbps": 8955.0,
+          "segments_ok": 1,
+          "segments_total": 2,
+          "color": {
+            "mean_rgb": [
+              121.0,
+              101.5,
+              102.6
+            ],
+            "lum_mean": 107.4,
+            "lum_std": 30.4,
+            "quant_colors": 153,
+            "flag": "ok"
+          },
+          "frame": null,
+          "error": "seg1:HTTP 404",
+          "error_kind": "dead",
+          "checked_at_utc": "2026-11-21T22:45:46Z",
+          "elapsed_sec": 276.49
+        },
         {
           "channel": "cctv16",
           "url": "https://epg.pw/stream/c1beb2abcba5aef09c2f58efc3ca84b76de2c7b9cf60762b0d79772d9e70d454.m3u8",
@@ -1648,27 +2019,8 @@
           "frame": null,
           "error": null,
           "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:39:42Z",
-          "elapsed_sec": 3.84
-        },
-        {
-          "channel": "cctv16",
-          "url": "https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8",
-          "score": 65,
-          "decode_errors": 0,
-          "resolution": "?",
-          "bitrate_kbps": 161.0,
-          "segments_ok": 2,
-          "segments_total": 2,
-          "color": {
-            "flag": "unknown",
-            "detail": "no frame"
-          },
-          "frame": null,
-          "error": null,
-          "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:39:40Z",
-          "elapsed_sec": 1.6
+          "checked_at_utc": "2026-11-21T22:46:16Z",
+          "elapsed_sec": 3.92
         }
       ],
       "fallback": [
@@ -1680,6 +2032,24 @@
         }
       ],
       "eliminated": [
+        {
+          "url": "http://112.27.5.218:9901/tsfile/live/faacts/1001_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://1.24.39.180:9003/hls/60/index.m3u8",
+          "score": 40,
+          "error": null,
+          "error_kind": null
+        },
+        {
+          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/cctv16hd.m3u8?auth=test20251009",
           "score": 0,
@@ -1705,31 +2075,7 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
           "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv16hd",
-          "score": 0,
-          "error": "NOT_M3U8",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.212.130:8181/1080p/cctv16.m3u8",
-          "score": 0,
-          "error": "seg0:too_small(194)",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://107.150.60.122/live/cctv16hd.m3u8",
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
@@ -1759,6 +2105,24 @@
           "score": 0,
           "error": "seg0:HTTP 404",
           "error_kind": "dead"
+        },
+        {
+          "url": "http://218.104.239.114:9901/tsfile/live/0019_2.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 44,
+          "error": null,
+          "error_kind": null
+        },
+        {
+          "url": "http://192.151.150.154/live/cctv17hd.m3u8",
+          "score": 0,
+          "error": "seg0:HTTP 404",
+          "error_kind": "dead"
+        },
+        {
+          "url": "http://221.7.175.154:8445/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 40,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://38.75.136.137:98/gslb/dsdqca/cctv17hd.m3u8?auth=test20251009",
@@ -1797,28 +2161,10 @@
           "error_kind": "dead"
         },
         {
-          "url": "http://192.151.150.154/live/cctv17hd.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
-          "url": "http://173.208.234.146/live/cctv17.m3u8",
-          "score": 0,
-          "error": "seg0:HTTP 404",
-          "error_kind": "dead"
-        },
-        {
           "url": "http://59.39.89.130:60901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0",
           "score": 23,
           "error": null,
           "error_kind": null
-        },
-        {
-          "url": "http://173.208.212.130:8181/1080p/cctv17.m3u8",
-          "score": 0,
-          "error": "seg0:too_small(196)",
-          "error_kind": "dead"
         },
         {
           "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8",
@@ -1830,34 +2176,7 @@
     },
     "cctv5p": {
       "display": "CCTV-5+ 体育赛事",
-      "selected": [
-        {
-          "channel": "cctv5p",
-          "url": "http://120.76.248.139/live/bfgd/4200000246.m3u8",
-          "score": 68,
-          "decode_errors": 3,
-          "resolution": "1920x1080",
-          "bitrate_kbps": 9383.0,
-          "segments_ok": 2,
-          "segments_total": 2,
-          "color": {
-            "mean_rgb": [
-              70.9,
-              48.3,
-              65.4
-            ],
-            "lum_mean": 57.0,
-            "lum_std": 47.5,
-            "quant_colors": 276,
-            "flag": "ok"
-          },
-          "frame": null,
-          "error": null,
-          "error_kind": null,
-          "checked_at_utc": "2026-11-20T23:40:30Z",
-          "elapsed_sec": 6.43
-        }
-      ],
+      "selected": [],
       "fallback": [
         {
           "url": "http://ldncctvwbcdali.v.myalicdn.com/ldncctvwbcd/cdrmldcctv5plus_1/index.m3u8",
@@ -1916,16 +2235,22 @@
           "error_kind": "dead"
         },
         {
+          "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8",
+          "score": 0,
+          "error": "connection",
+          "error_kind": "transient"
+        },
+        {
           "url": "http://175.24.134.198:1234/641886773",
           "score": 0,
           "error": "HTTP 403",
           "error_kind": "dead"
         },
         {
-          "url": "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8",
-          "score": 0,
-          "error": "connection",
-          "error_kind": "transient"
+          "url": "http://59.39.89.130:60901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "score": 40,
+          "error": null,
+          "error_kind": null
         },
         {
           "url": "http://58.57.40.22:9901/tsfile/live/1005_1.m3u8",
